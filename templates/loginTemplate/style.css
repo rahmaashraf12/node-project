@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.parent-container {
+  height: 100%;
+}
+
+.section-1 {
+  flex: 1;
+  height: 100vh;
+  width: 50%;
+  background-color: rgb(67, 117, 255);
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  display: block;
+  margin: 20px;
+}
